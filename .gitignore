@@ -1,3 +1,0 @@
-# We leverage XcodeGen to generate the project file
-*.xcodeproj/
-DerivedData/

@@ -2,10 +2,10 @@ name: sweetpad-demo-xcodegen
 options:
   bundleIdPrefix: dev.hyzyla.sweetpad-demo-xcodegen
 targets:
-  sweetpad-demox-cdoegen:
+  "sweetpad-demo-xcodegen":
     type: application
     platform: iOS
-    deploymentTarget: "15.0"
+    deploymentTarget: "16.0"
     sources: [sweetpad-demo-xcodegen]
     info:
       path: sweetpad-demo-xcodegen/Info.plist

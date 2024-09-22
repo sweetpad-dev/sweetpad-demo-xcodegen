@@ -1,0 +1,313 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A2BF537B70C4784B22E57FA7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96ECBF36401F26B1AFD556AA /* ContentView.swift */; };
+		B4F8336E237A24BAD89309FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80145A416C7DD6A44CCA22C3 /* Assets.xcassets */; };
+		C276B0B6946766B49E2FE80C /* Blog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2555918FA07B9808DCAF9CD3 /* Blog.swift */; };
+		CC5B40592A4D6D53A0744FE1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F3B99ACDDB8D7DBE64C15B4 /* Preview Assets.xcassets */; };
+		CDD0A5621CE79860BEE9BEEA /* sweetpad_demo_xcodegenApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE6D763B38CEF32E70A1C73 /* sweetpad_demo_xcodegenApp.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0DE6D763B38CEF32E70A1C73 /* sweetpad_demo_xcodegenApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sweetpad_demo_xcodegenApp.swift; sourceTree = "<group>"; };
+		2555918FA07B9808DCAF9CD3 /* Blog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blog.swift; sourceTree = "<group>"; };
+		4F3B99ACDDB8D7DBE64C15B4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		80145A416C7DD6A44CCA22C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		96ECBF36401F26B1AFD556AA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		ED36DE645D2D4423BDF190DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		F88A0D00F29EBFE3E89B1CB7 /* sweetpad-demo-xcodegen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "sweetpad-demo-xcodegen.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		5D3A4818DCB5ECBC26F227A7 /* sweetpad-demo-xcodegen */ = {
+			isa = PBXGroup;
+			children = (
+				80145A416C7DD6A44CCA22C3 /* Assets.xcassets */,
+				2555918FA07B9808DCAF9CD3 /* Blog.swift */,
+				96ECBF36401F26B1AFD556AA /* ContentView.swift */,
+				ED36DE645D2D4423BDF190DE /* Info.plist */,
+				0DE6D763B38CEF32E70A1C73 /* sweetpad_demo_xcodegenApp.swift */,
+				D30CCE99321FE6DAE50AFE6F /* Preview Content */,
+			);
+			path = "sweetpad-demo-xcodegen";
+			sourceTree = "<group>";
+		};
+		B34B6C4E8ED17637D3EC5ADB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F88A0D00F29EBFE3E89B1CB7 /* sweetpad-demo-xcodegen.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C51E8F70F9573BA09350898B = {
+			isa = PBXGroup;
+			children = (
+				5D3A4818DCB5ECBC26F227A7 /* sweetpad-demo-xcodegen */,
+				B34B6C4E8ED17637D3EC5ADB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D30CCE99321FE6DAE50AFE6F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4F3B99ACDDB8D7DBE64C15B4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D9CF0135D46C78C2C061E74C /* sweetpad-demo-xcodegen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4E05E8DB2E20F117DB2E6A3 /* Build configuration list for PBXNativeTarget "sweetpad-demo-xcodegen" */;
+			buildPhases = (
+				D0BB0CDCE36DFDEB3EC6AE23 /* Sources */,
+				10E978A9C346F21C2E0C6768 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "sweetpad-demo-xcodegen";
+			productName = "sweetpad-demo-xcodegen";
+			productReference = F88A0D00F29EBFE3E89B1CB7 /* sweetpad-demo-xcodegen.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A3DC3B4FE79B66013EF28742 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+			};
+			buildConfigurationList = 69A04653E4F7A6BC85DC723E /* Build configuration list for PBXProject "sweetpad-demo-xcodegen" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = C51E8F70F9573BA09350898B;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D9CF0135D46C78C2C061E74C /* sweetpad-demo-xcodegen */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		10E978A9C346F21C2E0C6768 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4F8336E237A24BAD89309FD /* Assets.xcassets in Resources */,
+				CC5B40592A4D6D53A0744FE1 /* Preview Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0BB0CDCE36DFDEB3EC6AE23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C276B0B6946766B49E2FE80C /* Blog.swift in Sources */,
+				A2BF537B70C4784B22E57FA7 /* ContentView.swift in Sources */,
+				CDD0A5621CE79860BEE9BEEA /* sweetpad_demo_xcodegenApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0F026E4A38BDA0477AA36E7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = L67B2KQU8K;
+				INFOPLIST_FILE = "sweetpad-demo-xcodegen/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.hyzyla.sweetpad-demo-xcodegen.sweetpad-demo-xcodegen";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		587B5C5EAA83C3D5B3028A2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = L67B2KQU8K;
+				INFOPLIST_FILE = "sweetpad-demo-xcodegen/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.hyzyla.sweetpad-demo-xcodegen.sweetpad-demo-xcodegen";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5FAB8FC849A7ADA61606D5FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		A18549F05BDCAA9F1063F2DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		69A04653E4F7A6BC85DC723E /* Build configuration list for PBXProject "sweetpad-demo-xcodegen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A18549F05BDCAA9F1063F2DC /* Debug */,
+				5FAB8FC849A7ADA61606D5FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B4E05E8DB2E20F117DB2E6A3 /* Build configuration list for PBXNativeTarget "sweetpad-demo-xcodegen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				587B5C5EAA83C3D5B3028A2B /* Debug */,
+				0F026E4A38BDA0477AA36E7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A3DC3B4FE79B66013EF28742 /* Project object */;
+}

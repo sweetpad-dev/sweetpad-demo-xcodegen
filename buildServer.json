@@ -1,0 +1,11 @@
+{
+  "name": "xcode build server",
+  "version": "0.2",
+  "bspVersion": "2.0",
+  "languages": ["c", "cpp", "objective-c", "objective-cpp", "swift"],
+  "argv": ["/opt/homebrew/bin/xcode-build-server"],
+  "workspace": "/Users/hyzyla/Developer/sweetpad-examples/sweetpad-demo-xcodegen/sweetpad-demo-xcodegen.xcodeproj/project.xcworkspace",
+  "build_root": "/Users/hyzyla/Library/Developer/Xcode/DerivedData/sweetpad-demo-xcodegen-dzkrjeasvvkqizahguhjvutdjivs",
+  "scheme": "sweetpad-demo-xcodegen",
+  "kind": "xcode"
+}
